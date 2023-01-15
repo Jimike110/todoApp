@@ -1,11 +1,13 @@
 .container {
-
+    box-shadow: 0px 5px 9px 1px rgba(0, 0, 0, 0.2);
     background-color: gainsboro;
     padding-top: 10px;
     padding-bottom: 20px;
     max-width: 600px;
     margin: 0px auto;
     margin-bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #input {
@@ -15,6 +17,7 @@
     background-color: gainsboro;
     width: 100%;
     padding-top: 10px;
+    box-shadow: 0px -2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #newTodo {
@@ -31,6 +34,9 @@
     padding-bottom: 3px;
     border: 2px solid #bb0000;
     border-radius: 300px;
+}
+#newTodo:hover{
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2);
 }
 
 li {
@@ -51,10 +57,13 @@ li {
 h1 {
     text-align: center;
     background-color: gainsboro;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: -2px;
+    z-index: 1;
+    position: relative;
+    font-size: 2.3em;
 }
 
 label {
@@ -76,6 +85,8 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: rgb(0, 230, 230);
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -87,3 +98,93 @@ body {
 .contain {
     min-height: calc(70% - 30px);
 }
+.wrapper .icon{
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  .wrapper .linkedin:hover,
+  .wrapper .linkedin:hover .tooltip,
+  .wrapper .linkedin:hover .tooltip::before {
+    background-color: #0077b5;
+    color: #ffffff;
+  }
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+  }
+  .about {
+    text-align: center;
+  }
+  #text {
+    font-size: 16px;
+  }

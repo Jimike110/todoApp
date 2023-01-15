@@ -1,5 +1,5 @@
 function add() {
-
+    
     // var todo = document.getElementById("newTodo").value;
     // var list = document.getElementById("list").cloneNode();
     // var ul = document.getElementById("list");
@@ -10,10 +10,7 @@ function add() {
         alert("To-do cannot be blank.");
         e.preventDefault();
     }
-    var LIcontent = document.createTextNode(listItem.value);
-    LIcontent.d
-
-
+    var LIcontent = document.createTextNode(listItem.value);   
     newLI.appendChild(LIcontent);
     var ul = document.getElementById("list");
     ul.appendChild(newLI);
