@@ -1,5 +1,5 @@
 function add() {
-    
+
     // var todo = document.getElementById("newTodo").value;
     // var list = document.getElementById("list").cloneNode();
     // var ul = document.getElementById("list");
@@ -12,8 +12,8 @@ function add() {
     }
     var LIcontent = document.createTextNode(listItem.value);
     LIcontent.d
-    
-    
+
+
     newLI.appendChild(LIcontent);
     var ul = document.getElementById("list");
     ul.appendChild(newLI);

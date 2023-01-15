@@ -1,18 +1,21 @@
 .container {
-    
-background-color: gainsboro;
-padding-top: 10px;
-padding-bottom: 20px;
-max-width: 600px;
-margin: 10px auto;
-margin-bottom: 50px;
+
+    background-color: gainsboro;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 600px;
+    margin: 0px auto;
+    margin-bottom: 50px;
 }
+
 #input {
     text-align: center;
     position: sticky;
     bottom: 0;
     background-color: gainsboro;
+    padding-top: 10px;
 }
+
 #newTodo {
     width: 70%;
     max-width: 500px;
@@ -28,6 +31,7 @@ margin-bottom: 50px;
     border: 2px solid #bb0000;
     border-radius: 300px;
 }
+
 li {
     background-color: aqua;
     border-radius: 300px;
@@ -42,13 +46,21 @@ li {
     padding-top: 3px;
     padding-bottom: 3px;
 }
+
 h1 {
-text-align: center;
+    text-align: center;
+    background-color: gainsboro;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 label {
     font-size: 1.5em;
     font-weight: 600;
 }
+
 button {
     font-size: 1.5em;
     font-weight: 700;
@@ -60,13 +72,17 @@ button {
     border-color: #bb0000;
     width: 20%;
 }
+
 button:hover {
     cursor: pointer;
 }
+
 body {
     font-family: monospace;
     margin: 0;
 }
+
 .contain {
     height: 100vh;
+    margin-top: 0;
 }
