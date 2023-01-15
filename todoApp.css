@@ -10,9 +10,10 @@
 
 #input {
     text-align: center;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     background-color: gainsboro;
+    width: 100%;
     padding-top: 10px;
 }
 
@@ -39,7 +40,7 @@ li {
     margin-bottom: 7px;
     max-width: 500px;
     word-wrap: break-word;
-    font-size: 15px;
+    font-size: 1.5em;
     margin-right: 7%;
     padding-left: 10px;
     padding-right: 10px;
@@ -80,9 +81,9 @@ button:hover {
 body {
     font-family: monospace;
     margin: 0;
+    margin-bottom: 20%;
 }
 
 .contain {
-    height: 100vh;
-    margin-top: 0;
+    min-height: calc(70% - 30px);
 }
