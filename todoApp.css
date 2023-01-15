@@ -6,6 +6,7 @@
     max-width: 600px;
     margin: 0px auto;
     margin-bottom: 50px;
+    text-align: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -92,25 +93,26 @@ button:hover {
 body {
     font-family: monospace;
     margin: 0;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 .contain {
     min-height: calc(70% - 30px);
 }
-/* .wrapper .icon{
+
+.wrapper .icon{
     position: relative;
-    z-index: 1;
     background-color: #ffffff;
     border-radius: 50%;
     margin: 10px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     font-size: 22px;
     display: inline-block;
     align-items: center;
     text-align: center;
+    z-index: 1;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -182,9 +184,4 @@ body {
     background-color: #de463b;
     color: #ffffff;
   }
-  .about {
-    text-align: center;
-  }
-  #text {
-    font-size: 16px;
-  } */
+
