@@ -11,6 +11,7 @@ margin-bottom: 50px;
     text-align: center;
     position: sticky;
     bottom: 0;
+    background-color: gainsboro;
 }
 #newTodo {
     width: 70%;
@@ -49,12 +50,13 @@ label {
     font-weight: 600;
 }
 button {
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight: 700;
     background-color: aqua;
     border-style: solid;
     border-radius: 22px;
-    padding: 10px 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border-color: #bb0000;
     width: 20%;
 }
@@ -63,6 +65,7 @@ button:hover {
 }
 body {
     font-family: monospace;
+    margin: 0;
 }
 .contain {
     height: 100vh;
