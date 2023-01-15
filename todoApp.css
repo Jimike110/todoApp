@@ -98,7 +98,7 @@ body {
 .contain {
     min-height: calc(70% - 30px);
 }
-.wrapper .icon{
+/* .wrapper .icon{
     position: relative;
     z-index: 1;
     background-color: #ffffff;
@@ -187,4 +187,4 @@ body {
   }
   #text {
     font-size: 16px;
-  }
+  } */
