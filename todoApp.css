@@ -1,0 +1,67 @@
+.container {
+    
+background-color: gainsboro;
+padding-top: 10px;
+padding-bottom: 20px;
+max-width: 600px;
+margin: 10px auto;
+margin-bottom: 50px;
+}
+#input {
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+#newTodo {
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    font-family: monospace;
+    font-size: 15px;
+    padding-bottom: 3px;
+    border: 2px solid #bb0000;
+    border-radius: 300px;
+}
+li {
+    background-color: aqua;
+    border-radius: 300px;
+    border: 2px solid #bb0000;
+    margin-bottom: 7px;
+    max-width: 500px;
+    word-wrap: break-word;
+    font-size: 15px;
+    margin-right: 7%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+h1 {
+text-align: center;
+}
+label {
+    font-size: 15px;
+    font-weight: 600;
+}
+button {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: aqua;
+    border-style: solid;
+    border-radius: 22px;
+    padding: 10px 50px;
+    border-color: #bb0000;
+}
+button:hover {
+    cursor: pointer;
+}
+body {
+    font-family: monospace;
+}
+.contain {
+    height: 100vh;
+}
