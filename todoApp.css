@@ -1,16 +1,18 @@
 .container {
-    box-shadow: 0px 5px 9px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 7px 6px 0.05px rgba(0, 0, 0, 0.2);
     background-color: gainsboro;
     padding-top: 10px;
     padding-bottom: 20px;
     max-width: 600px;
     margin: 0px auto;
     margin-bottom: 50px;
-    text-align: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index: 1;
 }
-
+.heading {
+    text-align: center;
+}
 #input {
     text-align: center;
     position: fixed;
@@ -18,6 +20,7 @@
     background-color: gainsboro;
     width: 100%;
     padding-top: 10px;
+    padding-bottom: 10px;
     box-shadow: 0px -2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -62,9 +65,9 @@ h1 {
     padding-bottom: 0px;
     margin-top: 0;
     margin-bottom: -2px;
-    z-index: 1;
-    position: relative;
     font-size: 2.3em;
+    box-shadow: 0px 7px 6px 0.05px rgba(0, 0, 0, 0.2);
+
 }
 
 label {
@@ -98,6 +101,7 @@ body {
 
 .contain {
     min-height: calc(70% - 30px);
+    z-index: 1;
 }
 
 .wrapper .icon{
@@ -164,6 +168,12 @@ body {
   .wrapper .twitter:hover .tooltip,
   .wrapper .twitter:hover .tooltip::before {
     background-color: #46c1f6;
+    color: #ffffff;
+  }
+  .wrapper .whatsapp:hover,
+  .wrapper .whatsapp:hover .tooltip,
+  .wrapper .whatsapp:hover .tooltip::before {
+    background-color: #25d366;
     color: #ffffff;
   }
   .wrapper .linkedin:hover,
