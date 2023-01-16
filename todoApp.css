@@ -93,11 +93,48 @@ h1 {
 
 }
 
-label {
+/* label {
     font-size: 1.5em;
     font-weight: 600;
     color: #f7f8fb;
     
+} */
+
+.labelDiv {
+    color: #f7f8fb;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-size: large;
+    max-width: 30ch;
+    animation: 
+        typing 3s steps(35, end),
+        blink-caret .8s step-end infinite;
+}
+@media (max-width: 270px) {
+    .labelDiv {
+        font-size: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .labelDiv {
+        font-size: 2em;
+    }
+}
+@media (min-width: 768px) {
+    .labelDiv {
+        font-size: 2em;
+    }
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent;}
+    50% { border-color: white}
 }
 
 button {
@@ -135,11 +172,11 @@ body {
     position: relative;
     background-color: #ffffff;
     border-radius: 50%;
-    margin: 10px;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 22px;
+    margin: 9px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 19.8px;
     display: inline-block;
     align-items: center;
     text-align: center;
@@ -150,6 +187,15 @@ body {
     color: #333;
     text-decoration: none;
     
+}
+@media (max-width: 400px) {
+    .wrapper .icon {
+    margin: 7px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15.4px;
+    }
 }
 
 .wrapper .tooltip {
