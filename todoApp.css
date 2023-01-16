@@ -12,6 +12,7 @@
 }
 h3 {
     color: white;
+    letter-spacing: 2px;
 }
 .heading {
     text-align: center;
@@ -37,7 +38,6 @@ h3 {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 3px;
-    font-family: monospace;
     font-size: 1.5em;
     padding-bottom: 3px;
     border-style: none;
@@ -84,6 +84,7 @@ h1 {
     margin-bottom: -2px;
     color: #f7f8fb;
     font-size: 2.4em;
+    letter-spacing: 1px;
 
 }
 
@@ -99,12 +100,13 @@ button {
     font-weight: 700;
     border-style: none;
     border-radius: 22px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background: none;
     color: white;
     background-color: #041955;
     width: 20%;
+    letter-spacing: 1px;
 }
 
 button:hover {
