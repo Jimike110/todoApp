@@ -13,6 +13,8 @@
 h3 {
     color: white;
     letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 20px;
 }
 .heading {
     text-align: center;
@@ -37,6 +39,7 @@ h3 {
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: monospace;
     padding-top: 3px;
     font-size: 1.5em;
     padding-bottom: 3px;
