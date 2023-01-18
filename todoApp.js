@@ -8,7 +8,7 @@ function add() {
     var listItem = document.getElementById("newTodo");
     if (!/\S/.test(listItem.value)) {
         document.getElementById("newTodo").value = "";
-        alert("To-do item cannot contain only whitespaces.");
+        alert("To-do item cannot be empty or contain only whitespaces.");
         e.preventDefault();
     }
     var LIcontent = document.createTextNode(listItem.value);   
