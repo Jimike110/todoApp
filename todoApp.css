@@ -298,3 +298,15 @@ body {
     background-color: #de463b;
     color: #ffffff;
 }
+
+.clear-btn {
+        background-color: transparent;
+        border: none;
+        color: #bbb;
+        font-size: 15px;
+        cursor: pointer;
+        float: right;
+      }
+      .hide {
+        display: none;
+      }
