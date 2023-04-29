@@ -10,13 +10,13 @@
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
+* [To-do](#to-do)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
 
 ## General Information
-- This project is a simple to-do list application created using HTML 5, CSS 3, and JavaScript. It allows users input tasks and automatically appends them to the list.
+- This project is a simple to-do list application created using HTML 5, CSS 3, and JavaScript. It allows users input tasks, delete tasks and automatically saves page state accordingly.
 - This project was built to exercise my knowledge of HTML 5, CSS 3 and JavaScript.
 
 
@@ -28,16 +28,17 @@
 
 ## Features
 - Add task to list
+- Delete task from list
 - Save page state even on page reload
 - Show alert message on a blank or whitespace only input
 - Fully responsive to fit all device widths 
 
 
 ## Screenshots
-![Desktop](/desktop.png)
+![Desktop](./images/desktop.png)
 Desktop View
 
-![Mobile](/mobile.png)
+![Mobile](./images/mobile.png)
 Mobile View
 
 
@@ -46,14 +47,9 @@ The To-do List App being web-based, simply requires a web browser to run. To use
 
 
 ## Project Status
-The To-do List App is complete and functional, but there is room for improvement and additional features to be added in the future.
+The To-do List App is complete and functional, but there is room for additional features to be added in the future.
 
-## Room for Improvement
-
-Room for improvement:
-- Make the _commented-out_ delete button work even on page reload
-
-To-do:
+## To-do
 - Scale this up to a real mobile application
 - Option to edit task
 - Option to add due dates to tasks
@@ -68,5 +64,6 @@ This project was created as a personal learning project to improve my skills in 
 
 ## Contact
 Created by [Jimike](https://jimike110.ml/). For any question or feedback, feel free to contact me &hearts; [oladoyemike@gmail.com](mailto:oladoyemike@gmail.com)
+Twitter: [@jimikeCodes](https://Twitter.com/jimikeCodes/)
 
-![Jimike](/Jimike.png)
+![Jimike](./images/Jimike.png)
