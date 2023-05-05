@@ -14,7 +14,7 @@
 h3 {
     color: white;
     letter-spacing: 2px;
-    font-family: monospace;
+    font-family: "Ubuntu", sans-serif;
     font-size: 20px;
 }
 
@@ -44,6 +44,7 @@ h3 {
     font-family: monospace;
     padding-top: 3px;
     font-size: 1.5em;
+    word-spacing: -3px;
     padding-bottom: 3px;
     border-style: none;
     border-radius: 300px;
@@ -72,14 +73,6 @@ li {
     color: white;
 }
 
-/* li:before {
-    content: '\00b7';
-    font-size: 100px;
-    line-height: 24px;
-    vertical-align: top;
-    list-style-position: outside;
-} */
-
 h1 {
     text-align: center;
     background-color: #3450a1;
@@ -94,13 +87,6 @@ h1 {
     word-spacing: 3px;
 
 }
-
-/* label {
-    font-size: 1.5em;
-    font-weight: 600;
-    color: #f7f8fb;
-    
-} */
 
 .labelDiv {
     color: #f7f8fb;
@@ -300,7 +286,7 @@ body {
 }
 
 .clear-btn {
-        background-color: transparent;
+        background-color: #3450a1;
         border: none;
         color: #bbb;
         font-size: 15px;

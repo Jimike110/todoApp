@@ -32,6 +32,9 @@ function addTodo () {
     listGroup.append(createListItem);
     inputBox.value = "";
 
+    // Scroll to the appended list item
+    createListItem.scrollIntoView();
+
     // Save the updated list to localStorage
     saveList();
 }
