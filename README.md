@@ -1,6 +1,6 @@
 # To-do List App 
 > A simple to-do list application created using HTML 5, CSS 3 and JavaScript.
-> Live demo [_here_](https://jimike110.ml/todoApp).
+> Live demo [_here_](https://jimike.netlify.app/todoApp).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -43,7 +43,7 @@ Mobile View
 
 
 ## Usage
-The To-do List App being web-based, simply requires a web browser to run. To use, navigate to [_https://jimike110.ml/todoApp_](https://jimike110.ml/todoApp).
+The To-do List App being web-based, simply requires a web browser to run. To use, navigate to [_https://jimike.netlify.app/todoApp_](https://jimike.netlify.app/todoApp).
 
 
 ## Project Status
@@ -62,8 +62,16 @@ This project was created as a personal learning project to improve my skills in 
 - This project was inspired by a similar project by [@dev_maims](https://twitter.com/dev_maims)
 
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://mit-license.org/) page for details.
+
 ## Contact
-Created by [Jimike](https://jimike110.ml/). For any question or feedback, feel free to contact me &hearts; [oladoyemike@gmail.com](mailto:oladoyemike@gmail.com)
-Twitter: [@jimikeCodes](https://Twitter.com/jimikeCodes/)
+
+For any inquiries or questions, feel free to contact me:
+
+- Name: Michael Oladoye
+- Email: [email me](mailto:oladoyemike@gmail.com)
+- LinkedIn: [Michael Oladoye](https://www.linkedin.com/in/jimike/)
+- X (formerly Twitter): [@jimikeCodes](https://twitter.com/jimikeCodes)
 
 ![Jimike](./images/Jimike.png)
